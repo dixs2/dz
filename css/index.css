@@ -1,0 +1,53 @@
+@import url(./fonts_cdn.css);
+@import url(./awecome.css);
+@import url(./pricing.css);
+@import url(./header.css);
+@import url(./axure.css);
+@import url(./saying.css);
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  font-family: "Open_Sans", "Raleway", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+  position: relative;
+  z-index: 9999;
+}
+.title {
+  text-align: center;
+  font-size: 36px;
+  color: #212121;
+  font-family: "Raleway";
+  text-transform: uppercase;
+  font-weight: 400;
+  max-width: 668px;
+  margin: auto;
+}
+.title::after {
+  content: "";
+  width: 64px;
+  height: 2px;
+  background-color: #e72424;
+  display: block;
+  margin: auto;
+  margin-top: 34px;
+}
+.text {
+  margin: auto;
+  max-width: 363px;
+  margin-top: 34px;
+}
+.text p {
+  text-align: center;
+  color: #86878b;
+  font-weight: 400;
+}

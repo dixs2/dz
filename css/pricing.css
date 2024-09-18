@@ -1,0 +1,48 @@
+.pricing {
+  padding: 80px 0px 59px;
+  background-color: #f5f5f5;
+}
+.list-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 62px -15px 0px;
+}
+.list {
+  width: 340px;
+  margin: 0px 15px;
+}
+.list-title {
+  text-align: center;
+  line-height: 50px;
+  color: #ffffff;
+  background-color: #333333;
+  font-size: 20px;
+  font-weight: 700;
+}
+.list-price {
+  line-height: 100px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #333333;
+  text-align: center;
+  margin-top: 2px;
+}
+.list-free {
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #333333;
+  text-align: center;
+  margin-top: 2px;
+}
+.list-text {
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 2px;
+}

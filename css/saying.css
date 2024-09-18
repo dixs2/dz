@@ -1,0 +1,76 @@
+.saying {
+  padding: 35px 0px 120px;
+}
+.saying-item-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 67px -15px 0px;
+}
+.saying-item {
+  max-width: 298px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+.saying-item-text {
+  background-color: #e2e2e2;
+  padding: 9px 22px 6px 23px;
+  border-radius: 7px;
+  position: relative;
+  flex-grow: 1;
+}
+
+.saying-item-text::after {
+  /*треугольник*/
+  content: "";
+  display: inline-block;
+  position: absolute;
+  border: 20px solid transparent;
+  border-top: 20px solid #e2e2e2;
+  top: 100%;
+}
+.saying-item-text p {
+  text-align: center;
+  color: #86878b;
+  font-size: 14px;
+  font-weight: 400;
+}
+.saying-item-content {
+  width: 215px;
+  display: flex;
+  margin: 22px auto 0px;
+  justify-content: space-between;
+}
+.saying-item-content-img {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.saying-item-content-img img {
+  width: 100%;
+  height: 100%;
+}
+.saying-item-content-text-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.saying-item-content-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #333333;
+}
+.saying-item-content-text {
+  align-self: flex-end;
+}
+.saying-item-content-text p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+}
